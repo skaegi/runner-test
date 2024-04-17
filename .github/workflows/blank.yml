@@ -31,6 +31,7 @@ jobs:
           head /proc/meminfo
           head /proc/cpuinfo
           uname -a
+          sleep 60
           
 
       # Runs a set of commands using the runners shell
